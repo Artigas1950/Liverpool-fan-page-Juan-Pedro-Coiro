@@ -1,0 +1,287 @@
+#gridIndex {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 70% 15%; }
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #950808;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  position: sticky;
+  top: 10PX;
+  color: white; }
+
+.video {
+  width: 100%; }
+
+.navPieDePagina-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: #950808; }
+
+.navPieDePagina-flex .redes-flex {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center; }
+
+.navPieDePagina-flex .redes-flex .instagram {
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 10px; }
+
+.navPieDePagina-flex .redes-flex .parrafoInstagram {
+  margin-right: 40px; }
+
+.navPieDePagina-flex .redes-flex .twitter {
+  width: 80px;
+  margin-right: 20px;
+  margin-top: 10px; }
+
+.navPieDePagina-flex .redes-flex .parrafoTwitter {
+  margin-right: 40px; }
+
+.navPieDePagina-flex .frase {
+  font-size: 2rem;
+  margin-left: 0px; }
+
+.navPieDePagina-flex .nikeLogo {
+  width: 50%;
+  max-width: 100px;
+  margin-left: 40px; }
+
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #950808;
+  margin: 10px;
+  padding: 10px; }
+
+#gridFixture {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  align-items: center; }
+
+#gridFixture .imgFixture {
+  width: 682px; }
+
+#gridFixture .boton2 {
+  width: 100px;
+  text-decoration: none;
+  color: white;
+  margin-left: 140px;
+  font-size: x-large;
+  background-color: #950808;
+  padding: 10px;
+  border-radius: 16px;
+  transition: width 1s; }
+
+#gridFixture .fechas-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+#gridFixture .fechas-flex .parrafoFechas {
+  text-align: right;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #950808; }
+
+#gridFixture .fechas-flex .boton:hover {
+  width: 130px; }
+
+.goleadores-grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 400px 400px 400px;
+  justify-content: center;
+  align-items: center; }
+
+.goleadores-grid .gol-flex {
+  background-image: linear-gradient(to bottom left, white 50%, #488460); }
+
+.goleadores-grid .gol-flex .textoGoleadores {
+  font-size: x-large;
+  color: #950808;
+  font-weight: bold;
+  margin-left: 40px; }
+
+.goleadores-grid .gol-flex .imgGoleadores {
+  width: 400px;
+  margin-left: 30px; }
+
+.goleadores-grid .goal-flex .imgMane {
+  width: 260px;
+  margin-left: 30px;
+  padding-right: 140px; }
+
+.home-flex {
+  display: flex;
+  color: #950808;
+  text-align: center;
+  margin-left: 40px;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bolder; }
+
+#news {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+#news .parteJurgen-flex {
+  display: flex;
+  background-image: linear-gradient(to bottom left, white, #488460); }
+
+#news .parteJurgen-flex .imgJurgen {
+  margin: 10px;
+  width: 207px;
+  height: 255px; }
+
+#news .parteJurgen-flex .fraseJurgen {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  color: #950808;
+  display: inline;
+  width: 80px;
+  font-size: large;
+  padding-right: 10px;
+  padding-top: 10px; }
+
+#news .imgVyF {
+  margin: 40px;
+  width: 330px;
+  border: 10px solid #488460;
+  transition: width 1s; }
+
+#news .imgVyF:hover {
+  width: 350px; }
+
+#news .imgThiago {
+  width: 330px;
+  border: 10px solid #488460;
+  transition: width 1s; }
+
+#news .imgThiago:hover {
+  width: 350px; }
+
+#news .arrow {
+  width: 10%;
+  transition: width 1s; }
+
+#news .arrow:hover {
+  width: 13%; }
+
+#gridShop {
+  display: grid;
+  grid-template-columns: 60%;
+  grid-template-rows: repeat(3, 400px);
+  justify-content: center; }
+
+#gridShop .ropa-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+#gridShop .ropa-flex .ropa {
+  width: 200px;
+  height: 260px;
+  background-image: linear-gradient(to bottom left, white, #488460);
+  transition: width 0.5s height 0.5s; }
+
+#gridShop .ropa-flex .textoShop {
+  font-size: x-large;
+  color: #950808; }
+
+.join-flex {
+  display: flex;
+  align-content: center;
+  justify-content: space-around; }
+
+.join-flex .parrafoJoin {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: white;
+  color: #950808;
+  padding-left: 30px; }
+
+.join-flex .logo {
+  width: 600px;
+  height: 600px; }
+
+.logoHeader {
+  width: 150px; }
+
+@media (max-width: 1023px) and (min-width: 481px) {
+  .mediaNews-flex {
+    display: flex;
+    flex-direction: column; }
+  #gridFixture {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%; }
+  .imgFixture {
+    width: 480px; }
+  .ropa-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; }
+  .join-flex {
+    display: flex;
+    flex-direction: column; }
+  .logo {
+    width: 480px;
+    height: 480px; }
+  .goleadores-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 200px); }
+  .imgGoleadores .imgMane {
+    margin-top: 40px; }
+  .textoGoleadores {
+    margin-left: 120px;
+    margin-bottom: 50px; } }
+
+@media (max-width: 480px) {
+  .mediaNews-flex {
+    display: flex;
+    flex-direction: column; }
+  #gridFixture {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%; }
+  .imgFixture {
+    width: 460px; }
+  .ropa-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; }
+  .join-flex {
+    display: flex;
+    flex-direction: column; }
+  .logo {
+    width: 400px; }
+  .goleadores-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 200px); }
+  .imgGoleadores .imgMane {
+    margin-top: 40px; }
+  .textoGoleadores {
+    margin-left: 120px;
+    margin-bottom: 50px; } }

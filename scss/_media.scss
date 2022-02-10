@@ -1,0 +1,94 @@
+@media (max-width: 1023px) and (min-width: 481px){
+    
+    .mediaNews-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    #gridFixture {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        
+    }
+    .imgFixture { 
+        width: 480px;
+    }
+
+    .ropa-flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .join-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 480px;
+        height: 480px;
+    }
+
+    .goleadores-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 200px);
+    }
+
+    .imgGoleadores .imgMane {
+        margin-top: 40px;
+    }
+
+    .textoGoleadores {
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width:480px) {
+    .mediaNews-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    #gridFixture {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        
+    }
+    .imgFixture { 
+        width: 460px;
+    }
+
+    .ropa-flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .join-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 400px;
+        
+    }
+
+    .goleadores-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 200px);
+    }
+
+    .imgGoleadores .imgMane {
+        margin-top: 40px;
+    }
+
+    .textoGoleadores {
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+
+}
