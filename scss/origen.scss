@@ -1,14 +1,11 @@
-#gridIndex{
-    display: grid;
-    grid-template-columns: 100%;;
-    grid-template-rows: 15% 70% 15% ;
+
+a {
+    text-decoration: none;
 }
 
 .header-flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     background-color: #950808;
     font-size: 20px;
     font-style: italic;
@@ -17,6 +14,8 @@
     top: 10PX;
     color: white;
 }
+
+
 
  .video {
     width: 100%;
@@ -100,6 +99,18 @@
     transition: width 1s;
 }
 
+#gridFixture .fechas-flex .boton {
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    margin-left: 140px;
+    font-size: x-large;
+    background-color: #950808;
+    padding: 10px;
+    border-radius: 16px;
+    transition: width 1s;
+}
+
 #gridFixture .fechas-flex {
     display: flex;
     flex-direction: column;
@@ -141,7 +152,7 @@
     margin-left: 30px;
 }
 
-.goleadores-grid .goal-flex .imgMane {
+.goleadores-grid .gol-flex .imgMane {
     width: 260px;
     margin-left: 30px;
     padding-right: 140px;
