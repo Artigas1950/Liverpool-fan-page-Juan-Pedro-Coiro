@@ -6,60 +6,33 @@
 
     <title>Join us</title>
     <link rel="shrotcut icon" href="../visuals/Logo.png">
-    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/style.css">
 
 </head>
 
 <body>
 
 
-    <header class="header-flex">
-        <div><a href="news.html">News</a></li></div>
-        <div><a href="fixture.html">Fixture</div>
-        <div><img src="../visuals/Logo.png" class="logoHeader"></div>
-        <div><a href="shop.html">Shop</a></div>
-        <div><a href="join-us.html">Join us</a></div>
-    </header>
+    <ul class="navBar">
+        <li><a href="news.html">News</a></li>
+        <li><a href="fixture.html">Fixture</a></li>
+        <li><img src="../visuals/Logo.png" class="logoHeader"></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="join-us.html">Contact</a></li>
+    </ul>
 
-    <h2 class="titulo">JOIN US FOR FREE</h2> 
-    <section class="join-flex">
-        <form class="parrafoJoin">
-            <label for="firstName">First Name</label>
-            <input id="firstName"  placeholder="First Name">
-            <br>
-            <label for="surname">Surname</label>
-            <input type="surname"  placeholder="Surname">
-            <br>
-            <label for="e-mail">E-mail</label>
-            <input type="e-mail"  placeholder="E-mail">
-            <br>
-            <select>
-                <option>Single</option>
-                <option>Married</option>
-                <option>Divorced</option>
-                <option>Widower</option>
-                <option>Concubinage</option>
-            </select>
-            <br>
-            <h4>Receive Newsletter?</h4>
-            <div>Yes</div>
-            <input type="radio"  value="Yes">
-            <div>No</div>
-            <input type="radio"  value="No">
-            <br>
-            <br>
-            <p>Suggestions:</p>
-            <textarea cols="30" rows="10"></textarea>
-            <br>
-            <input type="submit" value="Send Form">
-            <input type="reset" value="Clean Form">
-        </form>
+    <h2 class="titulo">CONTACT US</h2> 
 
-        <div><img src="../visuals/Logo.png" class="logo" ></div>
-    </section>
+    <form id="form" class="topBefore">
+		
+        <input id="name" type="text" placeholder="NAME">
+        <input id="email" type="text" placeholder="E-MAIL">
+        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+<input id="submit" type="submit" value="GO!">
 
-    <hr>
-    <a class="home-flex" href="../index.html">Home</a>
+</form>
+
+<a class="home-flex" href="../index.html">Home</a>      
 
     <footer> 
         <nav class="navPieDePagina-flex"> 

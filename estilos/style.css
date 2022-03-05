@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #950808;
+    list-style: none;
+    font-size: larger;
+    align-items: center;
+  }
+  .navBar > li{
+    margin: 10px;
+  }
+
+  .navBar > li > a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+.header-flex a{
+    color: white;
+}
+#gridIndex {
+    display: grid;
+    grid-template-columns: 100%;;
+    grid-template-rows: 15% 70% 15% ;
+}
+.video {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    font-style: italic;
+    color: #950808;
+    margin: 10px;
+    padding: 10px;
+}
+
+.parrafo {
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: #950808;
+    color: white;
+}
+
+/* exclusivo de fixture*/
+.parrafoFechas {     
+    text-align: right;
+    font-size: 36px;
+    font-family :'Roboto', sans-serif;
+    font-style: normal;
+    color: #950808;
+}
+
+.tabla {
+    text-align: center;
+    color: #950808;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+   
+}
+
+
+.parrafoJoin {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: white;
+    color: #950808;
+    padding-left: 30px;
+}
+
+
+
+footer {
+    background-color: #950808;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+
+/*boton home*/
+.home-flex {
+    display: flex;
+    color: #950808;
+    text-align: center;
+    margin-left: 40px;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.boton {
+    width: 110px;
+    text-decoration: none;
+    color: white;
+    margin-right: 140px;
+    font-size: x-large;
+    background-color: #950808;
+    padding: 10px;
+    border-radius: 16px;
+    transition: width 1s,;
+}
+.boton:hover {
+    width: 130px;
+
+}
+
+.boton2 {
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    margin-left: 140px;
+    font-size: x-large;
+    background-color: #950808;
+    padding: 10px;
+    border-radius: 16px;
+    transition: width 1s;
+}
+.boton2:hover {
+    width: 140px;
+}
+
+.boton3 {
+    background-color: #950808;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.boton3:hover {
+    width: 100px;
+}
+
+.imgJurgen {
+    margin: 10px;
+    width:207px;
+    height:255px;
+}
+
+#shop {
+    text-align: center;
+    padding-left: 250px;
+}
+
+.pieDePagina {
+    width: 80%;
+    margin: 20px
+
+}
+
+
+.nikeLogo {
+    width: 50%;
+    max-width: 100px;
+    margin-left: 40px;
+    
+    
+}
+
+.frase {
+    font-size: 2rem;
+    margin-left: 0px;
+    
+}
+
+.twitter {
+    width: 80px;
+    margin-right:20px;
+    margin-top: 10px;
+
+}
+
+.instagram {
+    width: 80px;
+    margin-right:20px;
+    margin-bottom: 10px;
+}
+
+.fraseJurgen {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: #950808;
+    display: inline;
+    width: 80px;
+    font-size:large;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.imgVyF {
+    margin: 40px ;
+    width: 330px;
+    border: 10px solid #488460;
+    transition: width 1s;
+}
+.imgVyF:hover {
+    width: 350px;
+}
+
+.imgThiago {
+    width: 330px;
+    border: 10px solid #488460;
+    transition: width 1s;
+}
+.imgThiago:hover{
+    width: 350px;
+}
+
+.imgFixture {
+    width :682px
+}
+
+.navPieDePagina-flex {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.parrafoTwitter {
+    margin-right: 40px;
+}
+
+.parrafoInstagram {
+    margin-right: 40px;
+}
+
+.arrow {
+    width: 10%;
+    transition: width 1s;
+}
+.arrow:hover {
+    width: 13%;
+}
+
+
+.textoShop {
+    font-size: x-large;
+    color: #950808;
+}
+
+#news {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parteJurgen-flex {
+    display: flex;
+    background-image: linear-gradient(to bottom left, white, #488460) ;
+    
+}
+
+.redes-flex {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ropa {
+    width: 200px;
+    height: 260px;
+    background-image: linear-gradient(to bottom left, white, #488460);
+    transition: width 0.5s height 0.5s;
+}
+.ropa:hover{
+    width: 220px ;
+    height: 280px;
+}
+
+#gridShop {
+    display: grid;
+    grid-template-columns: 60%;
+    grid-template-rows: repeat(3,400px);
+    justify-content: center;
+}
+
+.ropa-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#gridFixture {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    align-items: center;
+}
+
+.fechas-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.join-flex {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 600px;
+    height: 600px;
+}
+
+.logoHeader {
+    width: 150px;
+}
+
+
+.gol-flex {
+    background-image: linear-gradient(to bottom left, white 50%, #488460);
+}
+
+ .goleadores-grid {
+     display: grid;
+     grid-template-columns: 40% 40%;
+     grid-template-rows: 400px 400px 400px;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .imgGoleadores {
+    width: 400px;
+    margin-left: 30px;
+}
+.imgMane {
+    width: 260px;
+    margin-left: 30px;
+    padding-right: 140px;
+}
+
+.textoGoleadores {
+    font-size: x-large;
+    color: #950808;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #bbb5af;
+  }
+  
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #bbb5af;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+  }
+  
+  input:focus::placeholder, textarea::focus:placeholder {
+    color: #bbb5af;
+  }
+  
+  input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: #bbb5af;
+  }
+  
+  /* on hover placeholder */
+  
+  input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #cbc6c1;
+  }
+  
+  input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #cbc6c1;
+  }
+  
+  input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+  }
+  
+  input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: #cbc6c1;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background: #e2dedb;
+    color: #b3aca7;
+  }
+  
+  header {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+  }
+  
+  #form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+  }
+  
+  input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #726659;
+    
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+  }
+  
+  textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #726659;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    
+    border: solid 1px #b3aca7;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+  }
+  
+  #submit {
+    width: 502px;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #b3aca7;
+    border-top: none;
+  }
+  
+  #submit:hover {
+    color: #e2dedb;
+  }
+
+  body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+@media (max-width: 1023px) and (min-width: 481px){
+    
+    .mediaNews-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    #gridFixture {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        
+    }
+    .imgFixture { 
+        width: 480px;
+    }
+
+    .ropa-flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .join-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 480px;
+        height: 480px;
+    }
+
+    .goleadores-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 200px);
+    }
+
+    .imgGoleadores .imgMane {
+        margin-top: 40px;
+    }
+
+    .textoGoleadores {
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width:480px) {
+    .mediaNews-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    #gridFixture {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        
+    }
+    .imgFixture { 
+        width: 460px;
+    }
+
+    .ropa-flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .join-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 400px;
+        
+    }
+
+    .goleadores-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, 200px);
+    }
+
+    .imgGoleadores .imgMane {
+        margin-top: 40px;
+    }
+
+    .textoGoleadores {
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+
+}

@@ -3,17 +3,18 @@ a {
     text-decoration: none;
 }
 
-.header-flex {
-    display: flex;
-    flex-direction: row;
-    background-color: #950808;
-    font-size: 20px;
-    font-style: italic;
-    font-family:'Roboto', sans-serif;
-    position: sticky;
-    top: 10PX;
-    color: white;
-}
+.navBar{
+    display: inline;
+  }
+  .navBar > li{
+    margin: 25px;
+    display: inline;
+  }
+
+  .navBar > li > a{
+    text-decoration: none;
+    color: #fff;
+  }
 
 
 
